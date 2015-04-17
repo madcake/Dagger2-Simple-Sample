@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_margin="@dimen/margin_card"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	>
+	<ImageView
+		android:id="@+id/cover"
+		android:contentDescription="@string/movie_cover"
+		android:layout_width="@dimen/movie_cover_width"
+		android:layout_height="@dimen/movie_cover_height"
+		/>
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_toRightOf="@+id/cover"
+		android:layout_alignParentRight="true"
+		android:layout_centerVertical="true"
+		android:layout_margin="@dimen/margin_content_block"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		>
+		<TextView
+			android:id="@+id/title"
+			android:textAppearance="?android:textAppearanceMedium"
+			android:lines="1"
+			android:layout_marginBottom="@dimen/margin_content_block"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			/>
+		<TextView
+			android:id="@+id/description"
+			android:textAppearance="?android:textAppearanceSmall"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			/>
+	</LinearLayout>
+</RelativeLayout>

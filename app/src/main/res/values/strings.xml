@@ -1,0 +1,7 @@
+<resources>
+	<string name="app_name">Dagger 2 Simple Sample</string>
+
+	<string name="hello_world">Hello world!</string>
+	<string name="action_settings">Settings</string>
+	<string name="movie_cover">Movie cover</string>
+</resources>
